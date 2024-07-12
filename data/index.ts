@@ -172,6 +172,39 @@ export const workExperience = [
   },
 ];
 
+export const otherSkills = [
+  {
+    id: 1,
+    title: "National Chess Master",
+    desc: "Former Los Angeles County Champion & National USAT Undefeated Champion",
+    className: "md:col-span-2",
+    thumbnail: "/chess.png"
+  },
+  {
+    id: 2,
+    title: "I enjoy composing",
+    desc: 'Check out the <a href="https://s3.amazonaws.com/www.ywapom.com/vid/RH_visit_flim_mix.mp4" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-bold hover:text-blue-700">filmscore</a> I wrote while visiting beautiful Thessaloniki!',
+    className: "md:col-span-2",
+    thumbnail: "/thess.png",
+  },
+  {
+    id: 3,
+    title: "I adopt Red Pandas",
+    desc: 'You can donate too, <a href="https://redpandanetwork.org" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-bold hover:text-blue-700">here</a> (redpandanetwork.org)',
+    className: "md:col-span-2",
+    thumbnail: "/panda.png",
+  },
+  {
+    id: 4,
+    title: "I like traveling to historic sites",
+    desc: '',
+    className: "md:col-span-2",
+    thumbnail: "/athens.png",
+  },
+];
+
+
+
 export const socialMedia = [
   {
     id: 1,

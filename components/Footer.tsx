@@ -29,7 +29,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="text-xs md:font-normal font-light">
           Thanks to JSMastery for guidance with developing this site!
         </p>
         <p></p>
