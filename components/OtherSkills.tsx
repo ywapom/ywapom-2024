@@ -4,7 +4,7 @@ import { Button } from "./ui/MovingBorders";
 
 const OtherSkills = () => {
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 w-full" id="otherSkills">
       <h1 className="heading">
         More <span className="text-teal-300">about me</span>
       </h1>

@@ -1,19 +1,21 @@
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Home", link: "/" },
+  { name: "Intro", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Fun", link: "#otherSkills"},
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize collaboration, and foster open communication ",
+    title: "I have a post-graduate certificate in Machine Learning & Artificial Intelligence",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/map.png",
     spareImg: "",
   },
   {
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "I have a post-graduate certificate in Machine Learning & Artificial Intelligence",
+    title: "I prioritize collaboration, and foster open communication",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Exploring AI's use in Test Automation",
+    title: "I am currently exploring the use of AI in Test Automation",
     description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
