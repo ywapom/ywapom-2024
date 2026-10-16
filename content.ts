@@ -60,8 +60,8 @@ export const approach = {
     },
     {
       icon: "refresh",
-      title: "Build systems that heal",
-      body: "LLM-generated JSON flows driving Playwright runners that adapt when the app changes, instead of breaking.",
+      title: "State-aware agent workflows",
+      body: "Live system state in, schema-constrained output, validation gates before anything executes — agents that act on what's real, not what they assume.",
     },
     {
       icon: "people",
@@ -75,7 +75,7 @@ export const featured = {
   meta: "Current work · 2025 — now",
   title: "AI-coded solutions that raise the bar",
   body: "Using AI to deliver more, faster — without trading away quality. Every AI-built solution goes through the same rigor as hand-written code: clear intent, real tests, and architectural review before anything ships. The result is more output and fewer defects, not one at the expense of the other.",
-  tags: ["Claude Code", "AI orchestration", "Code quality", "Automation"],
+  tags: ["Claude Code", "Agent workflows", "Structured outputs", "Code quality"],
   steps: [
     "Define the outcome and constraints",
     "AI builds the solution",
@@ -87,9 +87,15 @@ export const featured = {
 export const projects = [
   {
     meta: "Meta · VR",
-    title: "VR performance test frameworks",
-    body: "Python frameworks for RenderDoc GPU profiling on Oculus headsets, plus Perfetto-based real-time graphics performance tests.",
+    title: "Performance testing on VR hardware",
+    body: "Python frameworks for RenderDoc GPU profiling and Perfetto-based real-time graphics tests, run on physical Oculus headsets — measuring real devices under real load.",
     stack: "Python · Perfetto · RenderDoc · ADB",
+  },
+  {
+    meta: "AssetSmart · Platform",
+    title: "Data-driven automation platform",
+    body: "A C#/SQL automation engine driving 10,000+ data-driven tests across an enterprise suite, plus deployment orchestration with Cypress and custom Slackbots.",
+    stack: "C# .NET · SQL · Cypress · CI/CD",
   },
   {
     meta: "Meta · Messenger",
@@ -104,6 +110,9 @@ export const projects = [
     stack: "Transformers · PyTorch · Colab",
   },
 ];
+
+export const experienceIntro =
+  "From set-top boxes to VR headsets to AI pipelines — always where software meets real systems, and where reliability isn't optional.";
 
 export const experience = [
   {
@@ -135,7 +144,7 @@ export const experience = [
     company: "Conduce & TiVo",
     role: "QA Automation Lead & Principal Engineer",
     summary:
-      "Company-wide API test suites in Python, penetration testing, and distributed teams building VOD validation frameworks.",
+      "Company-wide API test suites in Python, penetration testing, and distributed teams validating VOD on set-top box hardware.",
   },
 ];
 
@@ -149,7 +158,15 @@ export const logos = [
 export const stack = [
   {
     group: "AI-native",
-    items: ["Claude Code", "Custom skills & agents", "Prompt engineering", "LLM integration", "PyTorch"],
+    items: [
+      "Claude Code",
+      "Custom skills & agents",
+      "State-aware agent workflows",
+      "Structured outputs",
+      "Prompt engineering",
+      "LLM integration",
+      "PyTorch",
+    ],
   },
   { group: "Languages", items: ["Python", "TypeScript", "C# .NET", "C++", "SQL", "Bash"] },
   {
