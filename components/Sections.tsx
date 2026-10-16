@@ -4,6 +4,7 @@ import {
   beyond,
   contact,
   experience,
+  experienceIntro,
   featured,
   hero,
   logos,
@@ -172,9 +173,10 @@ export function Experience() {
   return (
     <section id="experience" className="container section">
       <div className="eyebrow">03 — Experience</div>
-      <h2 className="h2" style={{ marginBottom: 48 }}>
+      <h2 className="h2" style={{ marginBottom: 20 }}>
         Seventeen years of automation. The last two, AI-native.
       </h2>
+      <p className="section-intro">{experienceIntro}</p>
 
       <div className="timeline">
         {experience.map((e) => (
