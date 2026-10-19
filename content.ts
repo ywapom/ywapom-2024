@@ -149,6 +149,7 @@ export const experience = [
 ];
 
 export const logos = [
+  { src: "/images/apple.png", alt: "Apple", height: 24, style: "gray" },
   { src: "/images/meta.svg", alt: "Meta", height: 22, style: "gray" },
   { src: "/images/assetsmart.png", alt: "AssetSmart", height: 26, style: "gray" },
   { src: "/images/conduce.jpg", alt: "Conduce", height: 44, style: "multiply" },
